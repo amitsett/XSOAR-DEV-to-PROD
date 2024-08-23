@@ -2,7 +2,7 @@
 	"allRead": true,
 	"allReadWrite": true,
 	"cacheVersn": 0,
-	"data": "First Line",
+	"data": "First Line\nSecond Line",
 	"definitionId": "",
 	"description": "",
 	"detached": false,
