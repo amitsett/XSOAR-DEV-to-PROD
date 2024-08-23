@@ -1,0 +1,208 @@
+contentitemexportablefields:
+  contentitemfields:
+    definitionid: ""
+    fromServerVersion: ""
+    itemVersion: ""
+    packID: ""
+    packName: ""
+    prevname: ""
+    propagationLabels:
+    - all
+    toServerVersion: ""
+id: c3fc5ae0-708c-4429-8338-483c8a10b9da
+inputs: []
+name: Amit Test Playbook_copy
+outputs: []
+quiet: true
+sourceplaybookid: b7fc63e5-ca39-436d-8c29-ceecade4b332
+starttaskid: "0"
+tasks:
+  "0":
+    continueonerrortype: ""
+    id: "0"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "1"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: ce95141c-8265-4c70-8d57-f858fcc7597c
+      iscommand: false
+      name: ""
+      version: -1
+    taskid: ce95141c-8265-4c70-8d57-f858fcc7597c
+    timertriggers: []
+    type: start
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 50
+        }
+      }
+  "1":
+    continueonerrortype: ""
+    id: "1"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "2"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: de887965-a31f-465b-8746-d17e1dcee247
+      iscommand: false
+      name: Task 1
+      type: regular
+      version: -1
+    taskid: de887965-a31f-465b-8746-d17e1dcee247
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 195
+        }
+      }
+  "2":
+    continueonerrortype: ""
+    id: "2"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "3"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 2759ecd6-cd80-4346-874d-7301b5462613
+      iscommand: false
+      name: Task 2
+      type: regular
+      version: -1
+    taskid: 2759ecd6-cd80-4346-874d-7301b5462613
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 370
+        }
+      }
+  "3":
+    continueonerrortype: ""
+    id: "3"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "5"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 3e1e634c-7bd6-4c05-81c7-42c172626d93
+      iscommand: false
+      name: Task 3
+      type: regular
+      version: -1
+    taskid: 3e1e634c-7bd6-4c05-81c7-42c172626d93
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 545
+        }
+      }
+  "4":
+    continueonerrortype: ""
+    id: "4"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 6f3c0725-c74a-4242-8f31-4ba6da6e11ac
+      iscommand: false
+      name: End Task
+      type: title
+      version: -1
+    taskid: 6f3c0725-c74a-4242-8f31-4ba6da6e11ac
+    timertriggers: []
+    type: title
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 895
+        }
+      }
+  "5":
+    continueonerrortype: ""
+    id: "5"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "4"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 1e97561c-b042-4eac-8ff9-1e17dffadf6a
+      iscommand: false
+      name: Task 4
+      type: regular
+      version: -1
+    taskid: 1e97561c-b042-4eac-8ff9-1e17dffadf6a
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 720
+        }
+      }
+version: -1
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 910,
+        "width": 380,
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
