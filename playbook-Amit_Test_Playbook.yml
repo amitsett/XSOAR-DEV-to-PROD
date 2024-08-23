@@ -1,0 +1,207 @@
+contentitemexportablefields:
+  contentitemfields:
+    definitionid: ""
+    fromServerVersion: ""
+    itemVersion: ""
+    packID: ""
+    packName: ""
+    prevname: ""
+    propagationLabels:
+    - all
+    toServerVersion: ""
+id: b7fc63e5-ca39-436d-8c29-ceecade4b332
+inputs: []
+name: Amit Test Playbook
+outputs: []
+quiet: true
+starttaskid: "0"
+tasks:
+  "0":
+    continueonerrortype: ""
+    id: "0"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "1"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: d5cf2f96-25d6-4487-811a-a3cb130fb1e4
+      iscommand: false
+      name: ""
+      version: -1
+    taskid: d5cf2f96-25d6-4487-811a-a3cb130fb1e4
+    timertriggers: []
+    type: start
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 50
+        }
+      }
+  "1":
+    continueonerrortype: ""
+    id: "1"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "2"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 14209041-17d6-46e9-8823-ae7fad471b69
+      iscommand: false
+      name: Task 1
+      type: regular
+      version: -1
+    taskid: 14209041-17d6-46e9-8823-ae7fad471b69
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 195
+        }
+      }
+  "2":
+    continueonerrortype: ""
+    id: "2"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "3"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 686d281e-47d6-4db1-8f7e-6f76effd7a28
+      iscommand: false
+      name: Task 2
+      type: regular
+      version: -1
+    taskid: 686d281e-47d6-4db1-8f7e-6f76effd7a28
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 370
+        }
+      }
+  "3":
+    continueonerrortype: ""
+    id: "3"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "5"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 2bf4ca89-96c4-4457-8539-f44ef925b29d
+      iscommand: false
+      name: Task 3
+      type: regular
+      version: -1
+    taskid: 2bf4ca89-96c4-4457-8539-f44ef925b29d
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 545
+        }
+      }
+  "4":
+    continueonerrortype: ""
+    id: "4"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: b30e3526-a160-4ca9-87a8-a4e675bdfb6e
+      iscommand: false
+      name: End Task
+      type: title
+      version: -1
+    taskid: b30e3526-a160-4ca9-87a8-a4e675bdfb6e
+    timertriggers: []
+    type: title
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 895
+        }
+      }
+  "5":
+    continueonerrortype: ""
+    id: "5"
+    ignoreworker: false
+    isautoswitchedtoquietmode: false
+    isoversize: false
+    nexttasks:
+      '#none#':
+      - "4"
+    note: false
+    quietmode: 0
+    separatecontext: false
+    skipunavailable: false
+    task:
+      brand: ""
+      id: 0f05de27-4688-41de-8112-10a081994c72
+      iscommand: false
+      name: Task 4
+      type: regular
+      version: -1
+    taskid: 0f05de27-4688-41de-8112-10a081994c72
+    timertriggers: []
+    type: regular
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 720
+        }
+      }
+version: -1
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 910,
+        "width": 380,
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
